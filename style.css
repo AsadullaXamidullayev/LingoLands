@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header .headerNavigation {
+  width: 1920px;
+  height: 99px;
+  background-color: #0060FC;
+}
+header .headerNavigation .top {
+  width: 1317px;
+  height: 57px;
+  display: flex;
+  margin-left: 330px;
+}
+header .headerNavigation .top .logo {
+  width: 225px;
+  background: url(./img/header/img_5.png) no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  margin-right: 211px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+header .headerNavigation .top .logo h2 {
+  color: #F6D524;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+header .headerNavigation .top .logo h2 strong {
+  color: #7A4DFA;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+header .headerNavigation .top .search {
+  width: 387px;
+  height: 39px;
+  position: relative;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+header .headerNavigation .top .search input {
+  width: 387px;
+  height: 39px;
+  padding-left: 45px;
+  font-size: 29px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+}
+header .headerNavigation .top .search img {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+header .headerNavigation .top .headerLeft3 {
+  margin-top: 11px;
+  margin-left: 49px;
+}
+header .headerNavigation .top .headerLeft3 a {
+  width: 155px;
+  height: 38.98px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  transition: 780ms;
+  border: 2px solid red;
+}
+header .headerNavigation .top .headerLeft3 a:hover {
+  background-color: transparent;
+  color: #333;
+}
+header .headerNavigation .top .headerIcons {
+  width: 133px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 108px;
+  margin-top: 9px;
+}
+header .headerNavigation .top .headerIcons img {
+  cursor: pointer;
+}
+header .headerNavigation .top .menujs {
+  opacity: 0;
+}
+header .headerNavigation .bottomAbout {
+  width: 1920px;
+  height: 23px;
+  display: flex;
+}
+header .headerNavigation .bottomAbout .info {
+  width: 1268px;
+  height: 23px;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+header .headerNavigation .bottomAbout .info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerNavigation .bottomAbout .info ul li {
+  margin-left: 149px;
+}
+header .headerNavigation .bottomAbout .info ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  transition: 0.2s;
+}
+header .headerNavigation .bottomAbout .info ul li a:hover {
+  color: sandybrown;
+}
+header .bottom {
+  width: 1920px;
+  height: 700px;
+  position: relative;
+  background: url(./img/header/bg_img.png) no-repeat center center/cover;
+}
+header .bottom .bottomInfo {
+  width: 915px;
+  height: 511px;
+  position: relative;
+  margin-left: 695px;
+  padding-top: 60px;
+}
+header .bottom .bottomInfo .infoTop {
+  width: 872px;
+  height: 192px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header .bottom .bottomInfo .infoTop h1 {
+  color: #fff;
+  font-size: 53px;
+  font-family: "Montserrat", sans-serif;
+}
+header .bottom .bottomInfo .infoTop img {
+  margin-left: 83px;
+  transition: 500ms;
+}
+header .bottom .bottomInfo .infoTop img:hover {
+  box-shadow: 2px 2px 20px springgreen;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scaleZ(0.5) perspective(100px) translateZ(20px);
+}
+header .bottom .bottomInfo .infoSearch {
+  width: 718px;
+  height: 45px;
+  position: relative;
+  margin-left: 70px;
+  margin-top: 49px;
+  opacity: 0.5;
+}
+header .bottom .bottomInfo .infoSearch input {
+  width: 718px;
+  height: 45px;
+  border-radius: 25px;
+  padding-left: 50px;
+  font-size: 19px;
+}
+header .bottom .bottomInfo .infoSearch img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+header .bottom .bottomInfo .infoText {
+  width: 442px;
+  height: 185px;
+  margin-top: 36px;
+  margin-left: 70px;
+}
+header .bottom .bottomInfo .infoText h2 {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+header .bottom .bottomInfo .infoText p {
+  font-size: 21px;
+  width: 365px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+header .bottom .bottomInfo .infoButtom a {
+  width: 241px;
+  height: 62px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #F2111E;
+  border: 3px solid #F2111E;
+  color: #fff;
+  border-radius: 25px;
+  position: absolute;
+  top: 400px;
+  right: 10px;
+  transition: 500ms;
+}
+header .bottom .bottomInfo .infoButtom a:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  header {
+    width: 480px;
+  }
+  header .headerNavigation {
+    width: 480px;
+    height: 62px;
+    background-color: #0060FC;
+  }
+  header .headerNavigation .top {
+    width: 480px;
+    height: 62px;
+    display: flex;
+    position: relative;
+  }
+  header .headerNavigation .top .logo {
+    width: 137.5px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/header/medi_logo.png);
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    margin-left: -350px;
+    cursor: pointer;
+  }
+  header .headerNavigation .top .logo h2 {
+    font-size: 15.89px;
+  }
+  header .headerNavigation .top .logo h2 strong {
+    font-size: 15.89px;
+  }
+  header .headerNavigation .top .headerLeft3 a {
+    width: 125px;
+    height: 27px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: -100px;
+  }
+  header .headerNavigation .top .search {
+    opacity: 0;
+  }
+  header .headerNavigation .top .headerIcons {
+    opacity: 0;
+  }
+  header .headerNavigation .top .menujs {
+    opacity: 1;
+    width: 31px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    cursor: pointer;
+  }
+  header .headerNavigation .bottomAbout {
+    opacity: 0;
+  }
+  header .bottom {
+    width: 480px;
+    height: 206px;
+    background: url(./img/header/bg_img.png) no-repeat center center/cover;
+    position: relative;
+  }
+  header .bottom .bottomInfo {
+    width: 401px;
+    height: 429px;
+    position: absolute;
+    top: -30px;
+    left: 61px;
+    margin-left: -50px;
+  }
+  header .bottom .bottomInfo .infoTop {
+    width: 360px;
+    height: 106.4px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header .bottom .bottomInfo .infoTop h1 {
+    font-size: 20px;
+  }
+  header .bottom .bottomInfo .infoTop img {
+    width: 50.04px;
+    height: 50.04px;
+    margin-left: 39px;
+    transition: 500ms;
+  }
+  header .bottom .bottomInfo .infoTop img:hover {
+    border-radius: 50%;
+    box-shadow: springgreen;
+  }
+  header .bottom .bottomInfo .infoSearch {
+    opacity: 0;
+  }
+  header .bottom .bottomInfo .infoText {
+    width: 360px;
+    height: 176px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  header .bottom .bottomInfo .infoText h2 {
+    color: #333;
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-left: -100px;
+  }
+  header .bottom .bottomInfo .infoText p {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  header .bottom .bottomInfo .infoButtom a {
+    width: 210px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    color: #fff;
+    background-color: #F2111E;
+    border-radius: 25px;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-right: 75px;
+  }
+  header .bottom .bottomInfo .infoButtom a:hover {
+    color: #333;
+    text-shadow: 2px 2px 2px springgreen;
+  }
+}/*# sourceMappingURL=style.css.map */
